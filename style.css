@@ -1,0 +1,105 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+body{
+    top: 0;
+    left: 0;
+}
+:root{
+    --text-color: black;
+}
+.back{
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-image: url(umrah.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.suuder{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+}
+.talbar{
+    height: 960px;
+    width: 1280px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    backdrop-filter: blur(1000px);
+    z-index: 10;
+}
+.talbar img{
+    width: 640px;
+    height: 960px;
+    border-radius: 30px 0px 0px 30px;
+}
+.section{
+    height: 960px;
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content: center;
+    gap: 30px;
+}
+.heseg{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.privacy{
+    display: flex;
+    flex-direction: row;
+}
+.tomgarchig{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0B2C40;
+}
+.jijiggarchig{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--text-color);
+}
+.garchig{
+    color: var(--text-color);
+    font-size: 20px;
+}
+.bichih{
+    width: 480px;
+    height: 60px;
+    background-color: #DBDBDB;
+    border: none;
+    border-radius: 15px;
+    padding-left: 20px;
+}
+.check{
+    height: 20px;
+    width: 20px;
+}
+span{
+    font-size: 20px;
+    color: #D1C80F;
+}
+.submit{
+    width: 500px;
+    height: 60px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
